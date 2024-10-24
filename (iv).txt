@@ -1,0 +1,4 @@
+A. SELECT * FROM students;
+B. SELECT student_id, name, city FROM students WHERE city = 'Kandy';
+C. UPDATE students SET city = 'Galle' WHERE student_id = 4;
+D. SELECT students.student_id, students.name, students.city, courses.name as course_name FROM students,courses WHERE students.course_id = courses.course_id;

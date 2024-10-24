@@ -1,0 +1,79 @@
+﻿@page
+@model StudentManager.Pages.Students.CreateModel  
+
+
+@{
+    ViewData["Title"] = "Add Student";
+}
+
+<h1 class="sub-page-heading">Add new student</h1>
+
+<hr />
+
+<div class="row mt-5">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                @* <label asp-for="Student.Name" class="control-label"></label> *@
+                <h5 class="textbox-label">| Student Name</h5>
+                <input asp-for="Student.Name" class="form-control" />
+                <span asp-validation-for="Student.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                @* <label asp-for="Student.City" class="control-label"></label> *@
+                <h5 class="textbox-label">| City</h5>
+                <input asp-for="Student.City" class="form-control" />
+                <span asp-validation-for="Student.City" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                @* <label asp-for="Student.Course" class="control-label"></label> *@
+                <h5 class="textbox-label">| Enrolled Course</h5>
+                @* <input asp-for="Student.Course" class="form-control" /> *@
+                
+
+@*                 <select asp-for="Student.Course" class="form-select" aria-label="Default select example">
+                    <option selected>Select a Course</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="Graphic Design">Graphic Design</option>
+                    <option value="Mobile App Development">Mobile App Development</option>
+                    <option value="Java">Java</option>
+
+                    
+                    @foreach (var item in Model.Course)
+                    {
+                        @Html.DisplayFor(modelItem => item.Name)
+                    }
+
+
+                </select> *@
+
+
+                <select asp-for="Student.Course" class="form-select" aria-label="Default select example">
+                    <option selected>Select a Course</option>
+                    @foreach (var item in Model.Course)
+                    {
+                        <option value="@item.Name">@item.Name</option>
+                    }
+                </select>
+
+
+
+                <span asp-validation-for="Student.Course" class="text-danger"></span>
+
+
+            </div>
+            <div class="form-group mt-3">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="mt-3">
+    <a asp-page="Index">↤ Back </a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

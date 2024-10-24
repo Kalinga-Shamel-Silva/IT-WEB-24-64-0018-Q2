@@ -1,0 +1,54 @@
+﻿@page
+@model StudentManager.Pages.Courses.IndexModel
+
+@{
+    ViewData["Title"] = "Courses";
+}
+
+
+
+<h1 class="page-heading">Courses</h1>
+
+<hr>
+
+        <p>
+            <a asp-page="Create" class="btn btn-success mt-3">Create New Course</a>
+        </p>
+
+        <table class="table mt-5">
+            <thead>
+                <tr>
+                    <th>
+                        @* @Html.DisplayNameFor(model => model.Course[0].Name) *@
+                        <h5 class="table-heading">| Course Name</h5>
+                    </th>
+                    <th>
+                        @* @Html.DisplayNameFor(model => model.Course[0].Lecturer_Name) *@
+                        <h5 class="table-heading">| Lecturer Name</h5>
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Course)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Lecturer_Name)
+                        </td>
+                        <td>
+                            <a class="btn btn-secondary detail-view-btn" asp-page="./Details" asp-route-id="@item.Id">Details</a> 
+                            <a class="btn btn-warning detail-btn" asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                            <a class="btn btn-danger detail-btn" asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+
+
+

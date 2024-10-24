@@ -1,0 +1,61 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="text-center">
+            <h1 class="display-2" style="font-size: 40px; font-weight: bold;">welcome to</h1>
+            <h1 class="display-1" style="font-size: 80px; font-weight: bold; color: rgb(30, 120, 255);">
+                StudentManager
+            </h1>
+            <p class="lead">Where you can simply manage Students and Courses</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <section class="container mt-5">
+        <div class="row">
+
+            <div class="col-lg-3"></div>
+
+            <div class="col-md-12 col-lg-3 d-flex justify-content-center align-items-center">
+                <div class="card feature-card2" style="width: 18rem;">
+                    <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                        <h5 class="card-title card-my-title">COURSES</h5>
+                        <p class="card-text" style="text-align: center;">
+                            To see all the courses, Create new courses,
+                            Update and Delete them, click on the link
+                        </p>
+                        <a href="/Courses/Index" class="card-link">See Courses</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="col-md-12 col-lg-3 d-flex justify-content-center align-items-center">
+                <div class="card feature-card2" style="width: 18rem;">
+                    <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                        <h5 class="card-title card-my-title">STUDENTS</h5>
+                        <p class="card-text" style="text-align: center;">
+                            To see all the students, Create new
+                            students, Update and Delete them, click on the link
+                        </p>
+                        <a href="/Students/Index" class="card-link">See Students</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3"></div>
+
+        </div>
+    </section>
+
+    <div class="mt-5"></div>
+    <hr>
+</div>

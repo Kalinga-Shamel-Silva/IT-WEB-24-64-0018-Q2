@@ -1,0 +1,94 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.feature-card2 {
+    background-color: #e2e8ff;
+    color: rgb(0, 0, 0);
+    border: none;
+    height: 200px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    margin-top: 20px;
+}
+
+    .feature-card2:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    }
+
+
+.card-my-title {
+    color: rgb(30, 120, 255);
+    font-weight: bold;
+}
+
+.background-color1 {
+    background-color: rgb(204, 205, 255);
+}
+
+.background-color2 {
+    background-color: rgb(255, 180, 180);
+}
+
+.background-color3 {
+    background-color: rgb(169, 255, 219);
+}
+
+.page-heading {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(30, 120, 255);
+}
+
+.sub-page-heading {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(30, 120, 255);
+}
+
+.table-heading {
+    color: rgb(30, 120, 255);
+    font-weight: 700;
+}
+
+.textbox-label {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.detail-btn {
+    height: 30px;
+    padding-top: 1px;
+}
+
+.detail-view-btn {
+    height: 30px;
+    padding-top: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 20px;
+}
+
+.navbar-logo {
+    font-weight: 700;
+    font-size:20px;
+}

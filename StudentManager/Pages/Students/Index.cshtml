@@ -1,0 +1,53 @@
+﻿@page
+@model StudentManager.Pages.Students.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="page-heading">Students</h1>
+
+<hr />
+
+<p>
+    <a class="btn btn-success mt-3" asp-page="Create">Add New Student</a>
+</p>
+<table class="table mt-5">
+    <thead>
+        <tr>
+            <th>
+                @* @Html.DisplayNameFor(model => model.Student[0].Name) *@
+                <h5 class="table-heading">| Student Name</h5>
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.Student[0].City) *@
+                <h5 class="table-heading">| City</h5>
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.Student[0].Course) *@
+                <h5 class="table-heading">| Enrolled Course</h5>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Student) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.City)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Course)
+            </td>
+            <td>
+                    <a class="btn btn-secondary detail-view-btn" asp-page="./Details" asp-route-id="@item.Id">View</a> 
+                    <a class="btn btn-warning detail-btn" asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a class="btn btn-danger detail-btn" asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
