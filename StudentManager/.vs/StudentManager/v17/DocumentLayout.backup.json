@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Docs\\SLIIT\\Final Project\\Q2\\StudentManager\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{145F6F31-7C8C-4D1E-BC65-895033639A30}|StudentManager.csproj|e:\\docs\\sliit\\final project\\q2\\studentmanager\\pages\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{145F6F31-7C8C-4D1E-BC65-895033639A30}|StudentManager.csproj|solutionrelative:pages\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{145F6F31-7C8C-4D1E-BC65-895033639A30}|StudentManager.csproj|e:\\docs\\sliit\\final project\\q2\\studentmanager\\pages\\students\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{145F6F31-7C8C-4D1E-BC65-895033639A30}|StudentManager.csproj|solutionrelative:pages\\students\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,37 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "E:\\Docs\\SLIIT\\Final Project\\Q2\\StudentManager\\Pages\\Students\\Create.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Students\\Create.cshtml.cs",
-              "ToolTip": "E:\\Docs\\SLIIT\\Final Project\\Q2\\StudentManager\\Pages\\Students\\Create.cshtml.cs",
-              "RelativeToolTip": "Pages\\Students\\Create.cshtml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T13:54:41.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\Docs\\SLIIT\\Final Project\\Q2\\StudentManager\\Pages\\Students\\Create.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Students\\Create.cshtml",
-              "ToolTip": "E:\\Docs\\SLIIT\\Final Project\\Q2\\StudentManager\\Pages\\Students\\Create.cshtml",
-              "RelativeToolTip": "Pages\\Students\\Create.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-24T13:54:34.304Z",
-              "EditorCaption": ""
             }
           ]
         }

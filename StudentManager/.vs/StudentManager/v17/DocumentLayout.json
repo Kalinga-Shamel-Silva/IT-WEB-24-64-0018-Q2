@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Docs\\SLIIT\\Final Project\\Q2\\StudentManager\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{145F6F31-7C8C-4D1E-BC65-895033639A30}|StudentManager.csproj|e:\\docs\\sliit\\final project\\q2\\studentmanager\\pages\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{145F6F31-7C8C-4D1E-BC65-895033639A30}|StudentManager.csproj|solutionrelative:pages\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{145F6F31-7C8C-4D1E-BC65-895033639A30}|StudentManager.csproj|e:\\docs\\sliit\\final project\\q2\\studentmanager\\pages\\courses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{145F6F31-7C8C-4D1E-BC65-895033639A30}|StudentManager.csproj|solutionrelative:pages\\courses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Docs\\SLIIT\\Final Project\\Q2\\StudentManager\\Pages\\Students\\Details.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Students\\Details.cshtml",
+              "ToolTip": "E:\\Docs\\SLIIT\\Final Project\\Q2\\StudentManager\\Pages\\Students\\Details.cshtml",
+              "RelativeToolTip": "Pages\\Students\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T01:37:43.999Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Docs\\SLIIT\\Final Project\\Q2\\StudentManager\\Pages\\Courses\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Courses\\Create.cshtml",
+              "ToolTip": "E:\\Docs\\SLIIT\\Final Project\\Q2\\StudentManager\\Pages\\Courses\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Courses\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T01:37:39.771Z",
+              "EditorCaption": ""
             }
           ]
         }
